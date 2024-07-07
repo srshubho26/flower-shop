@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+/* Shared css */
+h1, h2, h3, h4, h5, h6{
+    color: rgb(39, 39, 39);
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px
+}
+
+p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.title-box{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    border: none;
+    text-decoration: none;
+    background: rgb(229, 84, 115);
+    padding: 16px 34px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-primary{
+    color: rgb(229, 84, 115);
+}
+
+main{
+    text-align: center;
+}
+
+section{
+    margin: 100px 0;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    height: 680px;
+    background: rgba(229, 84, 115, 0.1);
+}
+
+header .header-wrap{
+    max-height: 100%;
+}
+
+header .banner-left{
+    flex-basis: 50%;
+    align-items: center;
+}
+
+header .banner-left .banner-txt-wrap{
+    padding-right: 100px;
+}
+
+header .banner-left .banner-txt-wrap h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 76px;
+}
+
+header .banner-right{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+header .banner-right img{
+    max-height: calc(100% - 50px);
+    margin-top: 50px;
+}
+
+
+.featured-wrap{
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.single-featured h3{
+    margin: 20px 0;
+}
+
+.single-featured .img-bg{
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 500px 500px 0 0;
+    padding: 30px 30px 0 30px;
+    flex-basis: 100%;
+}
+
+.single-featured:first-child .img-bg{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.single-featured:last-child .img-bg{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.single-featured .img-bg img{
+    height: 350px;
+}
+
+.quality-wrap{
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    padding: 65px 140px;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.quality-wrap h5{
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+
+.hot-deal{
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 0;
+}
+
+.deal-wrap{
+    justify-content: center;
+    gap: 150px;
+}
+
+.deal-left{
+    align-items: center;
+}
+
+.deal-desc{
+    width: 500px;
+}
+
+
+
+.newsletter-bg{
+    background: url(images/Rectangle\ 9.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    border-radius: 8px;
+}
+
+.newsletter form{
+    width: 700px;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.newsletter p{
+    margin-top: 10px;
+}
+
+.newsletter form input{
+    flex-basis: 90%;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 0 20px;
+    border: none;
+}
+
+footer{
+    text-align: center;
+    padding: 100px 0;
+    background: rgb(17, 16, 16);;
+}
+
+footer h2{
+    color: #ffffff;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+footer .copyright{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    margin-bottom: 0;
+}
