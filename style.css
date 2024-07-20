@@ -27,8 +27,10 @@ p{
 }
 
 .title-box{
-    width: 550px;
+    max-width: 100%;
+    width: 570px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .btn-primary{
@@ -61,8 +63,10 @@ section{
 }
 
 .container{
-    width: 1440px;
+    width: 1460px;
     margin: 0 auto;
+    max-width: 100%;
+    padding: 0 10px;
 }
 
 header{
@@ -161,14 +165,27 @@ header .banner-right img{
     width: 500px;
 }
 
+.insta .insta-wrap{
+    flex-wrap: wrap;
+}
+
+.insta .insta-wrap .single-insta{
+    flex-basis: 25%;
+    padding: 0 5px;
+}
+
+.insta .insta-wrap .single-insta img{
+    max-width: 100%;
+}
 
 
 .newsletter-bg{
     background: url(images/Rectangle\ 9.png) no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 0;
     border-radius: 8px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .newsletter form{
